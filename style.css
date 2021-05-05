@@ -1,0 +1,8 @@
+*{
+    box-sizing: border-box;
+    transition: 500ms;
+}
+
+:root{
+    --main-theme:rgb(90, 90, 179);
+}

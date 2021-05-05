@@ -1,0 +1,31 @@
+
+.main-section{
+    background-color: var(--main-theme);
+
+    display: grid;
+}
+
+.content--robot{
+    background-color: brown;
+    grid-area: robot;
+}
+
+.content--acces{
+    background-color: burlywood;
+    grid-area: acces;
+}
+
+.content-servers{
+    background-color: cadetblue;
+    grid-area: servers;
+}
+
+.content-pc{
+    background-color: chartreuse;
+    grid-area: pc;
+}
+
+.content-text{
+    background-color: darkgoldenrod;
+    grid-area: text;
+}

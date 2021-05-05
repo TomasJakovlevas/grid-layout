@@ -1,0 +1,21 @@
+header{
+    background-color: var(--main-theme);
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+
+    font-size: 26px;
+    padding: 15px;
+}
+
+.navi-corner{
+    display: flex;
+    font-size: 22px;
+}
+
+.hamburger i{
+    margin: 0 15px;
+}
