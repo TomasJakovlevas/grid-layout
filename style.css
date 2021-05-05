@@ -15,7 +15,7 @@ body{
 
 .background-line{
     position: absolute;
-    top: 35%;
+    top: 30%;
     background-color: turquoise;
     height: 150px;
     width: 100%;
@@ -35,5 +35,27 @@ body{
     .background-line{
         top: 50%;
 
+    }
+}
+
+/* ---------------------------FOOTER------------------------------- */
+
+footer{
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    width: 80%;
+}
+
+@media screen and (min-width:768px) {
+
+    footer p{
+        width: 30%;
     }
 }
